@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-my-speed",
+  "version": "1.0",
+  "description": "Cordova plugin for getting current speed of device",
+  "cordova": {
+    "id": "cordova-plugin-my-speed",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "intent",
+    "current speed"
+  ],
+  "author": "Oleksii Ratnykov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahoho/cordova-my-speed/issues"
+  },
+  "homepage": "https://github.com/mahoho/cordova-my-speed#readme"
+}
