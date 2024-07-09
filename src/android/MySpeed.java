@@ -39,6 +39,7 @@ public class MySpeed extends CordovaPlugin {
         object.lat = loc.getLatitude();;
         object.lng = loc.getLongitude();
         object.speed = activity.locationListener.lastLocation.getSpeed();
+        object.speed = (int)((object.speed * 3600) / 1000);
 
         ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
         try {
