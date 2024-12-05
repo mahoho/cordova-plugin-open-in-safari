@@ -7,13 +7,13 @@ var executeCallback = function(callback, message) {
 
 
 /**
- * Send data to intent of another application.
- * @param {object} order
+ * Open URL in default system browser.
+ * @param {string} URL to open
  * @param {Function} [successCallback] - Optional success callback, recieves message object.
  * @param {Function} [errorCallback] - Optional error callback, recieves message object.
  * @returns {Promise}
  */
-exports.get = function(successCallback, errorCallback) {
+exports.open = function(url, successCallback, errorCallback) {
     return new Promise(function(resolve, reject) {
         exec(function(message) {
             executeCallback(successCallback, message);
@@ -21,6 +21,6 @@ exports.get = function(successCallback, errorCallback) {
         }, function(message) {
             executeCallback(errorCallback, message);
             reject(message);
-        }, 'MySpeed', 'get', []);
+        }, 'OpenInSafari', 'open', [{url: url}]);
     });
 };

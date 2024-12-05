@@ -1,22 +1,13 @@
-# Cordova Current Speed Plugin
-This plugin is built as unified method for getting current location along with current speed.
+# Cordova Open In Safari Plugin
+I built this plugin because `cordova.InAppBrowser.open(url, '_system')` simply doesn't work for iOS. Feel free to use it if you experience the same problem. 
 
 ## Installation
 
 ```
-cordova plugin add cordova-plugin-my-speed
+cordova plugin add cordova-plugin-open-in-safari
 ```
 
 ## Usage
 
-`cordova.plugins.MySpeed.get()` returns json string (iOS) or object (Android) with following props:
-
-```
-{
-    lat: 0,
-    lng: 0,
-    speed: 0
-}
-```
-On iOS, use JSON.parse() to get object from response.
+`cordova.plugins.OpenInSafari.open(url)` to open link in system default browser.
 

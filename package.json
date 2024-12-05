@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-my-speed",
+  "name": "cordova-plugin-open-in-safari",
   "version": "1.0",
-  "description": "Cordova plugin for getting current speed of device",
+  "description": "Cordova plugin for openin links in default web browser (Safari, Chrome, etc.)",
   "cordova": {
-    "id": "cordova-plugin-my-speed",
+    "id": "cordova-plugin-open-in-safari",
     "platforms": [
       "ios",
       "android"
@@ -12,13 +12,13 @@
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
-    "intent",
-    "current speed"
+    "safari",
+    "chrome"
   ],
   "author": "Oleksii Ratnykov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mahoho/cordova-my-speed/issues"
+    "url": "https://github.com/mahoho/cordova-plugin-open-in-safari/issues"
   },
-  "homepage": "https://github.com/mahoho/cordova-my-speed#readme"
+  "homepage": "https://github.com/mahoho/cordova-plugin-open-in-safari#readme"
 }
