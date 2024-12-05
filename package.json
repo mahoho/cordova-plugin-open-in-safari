@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-open-in-safari",
-  "version": "1.0",
+  "name": "@oleksiir/cordova-plugin-open-in-safari",
+  "version": "1.0.0",
   "description": "Cordova plugin for openin links in default web browser (Safari, Chrome, etc.)",
   "cordova": {
     "id": "cordova-plugin-open-in-safari",
