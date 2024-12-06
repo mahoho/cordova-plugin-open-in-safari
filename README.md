@@ -4,7 +4,7 @@ I built this plugin because `cordova.InAppBrowser.open(url, '_system')` simply d
 ## Installation
 
 ```
-cordova plugin add cordova-plugin-open-in-safari
+cordova plugin add @oleksiir/cordova-plugin-open-in-safari
 ```
 
 ## Usage
